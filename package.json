@@ -1,0 +1,30 @@
+{
+  "name": "budget-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suhirsaleh/-Progressive-Budget"
+  },
+  "author": "Suhir Saleh (https://github.com/suhirsaleh/-Progressive-Budget)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://suhirsaleh.github.io/-Progressive-Budget/"
+  },
+  "homepage": "https://suhirsaleh.github.io/-Progressive-Budget/",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.15",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
